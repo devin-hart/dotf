@@ -3,18 +3,39 @@
   box-sizing: border-box;
 }
 
-.dotf-container {
+body, html {
+    height: 100%;
+}
 
+h3 {
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+h1.dotf-logo-test {
+  font-size: 60px;
+  font-family: sans-serif;
+  color: white;
+}
+
+.dotf-container {
 }
 
 .dotf-menu {
-
 }
 
 /* Header */
 
 .dotf-header-container {
-
+  background-image: url("https://wallpaperscraft.com/image/forest_trees_grass_fog_118451_1920x1080.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: grid;
+  grid-column-template: 1fr 1fr 1fr;
+  grid-row-template: 1fr 1fr 1fr;
 }
 
 .dotf-logo {
@@ -22,33 +43,48 @@
 }
 
 .dotf-header-text {
-
+  font-size: 60px;
+  font-family: sans-serif;
+  color: rgba(255, 255, 255, 0.75);
+  grid-column: 2;
+  grid-row: 2;
 }
 
 /* About */
 
 .dotf-about-container {
-
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  height: 50%;
 }
 
 .dotf-about-title {
+  grid-column: 1/2;
 
 }
 
 .dotf-about-text {
-
+grid-column: 2/4;
 }
 
 /* Break */
 
 .dotf-break-container {
-
+  background-image: url("https://wallpaperscraft.com/image/forest_trees_fog_110131_1920x1080.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 /* Oils */
 
 .dotf-oils-container {
-
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-left: 1px;
+  margin-right: 1px;
 }
 
 .dotf-oils-title {
@@ -58,7 +94,6 @@
 /*** Bonekeeper ***/
 
 .dotf-oil-1 {
-
 }
 
 .dotf-oil-title-1 {
